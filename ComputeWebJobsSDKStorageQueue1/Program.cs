@@ -84,8 +84,8 @@ namespace ComputeWebJobsSDKStorageQueue1
 
             Order person = new Order()
             {
-                Name = "Alex",
-                OrderId = Guid.NewGuid().ToString("N").ToLower()
+                Name = "HEY FOOO",
+                OrderId = "42"
             };
 
             queue.AddMessage(new CloudQueueMessage(JsonConvert.SerializeObject(person)));

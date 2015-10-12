@@ -11,7 +11,7 @@
     <releaseNotes></releaseNotes>
   </metadata>
   <files>
-	<file src="..\..\bin\Debug\**" target="app_data\jobs\continuous\computejob" />
+	<file src="bin\Debug\**" target="app_data\jobs\continuous\computejob" />
     <!--<file src="F:\TeamCity\buildAgent\work\80ed4712a899e24\ComputeWebJobsSDKStorageQueue1\bin\Debug\ComputeWebJobsSDKQueue.exe.config" target="ComputeWebJobsSDKQueue.exe.config" />
     <file src="F:\TeamCity\buildAgent\work\80ed4712a899e24\ComputeWebJobsSDKStorageQueue1\bin\Debug\ComputeWebJobsSDKQueue.exe" target="ComputeWebJobsSDKQueue.exe" />
     <file src="F:\TeamCity\buildAgent\work\80ed4712a899e24\ComputeWebJobsSDKStorageQueue1\bin\Debug\ComputeWebJobsSDKQueue.pdb" target="ComputeWebJobsSDKQueue.pdb" />

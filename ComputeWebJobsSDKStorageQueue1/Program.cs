@@ -84,7 +84,7 @@ namespace ComputeWebJobsSDKStorageQueue1
 
             Order person = new Order()
             {
-                Name = "HEY FOOO",
+                Name = ConfigurationManager.AppSettings["MyTestValue"],
                 OrderId = "42"
             };
 

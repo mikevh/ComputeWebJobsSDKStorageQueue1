@@ -17,7 +17,7 @@ namespace SecondJob
             Console.WriteLine("job #2!");
             var host = new JobHost();
             // The following code ensures that the WebJob will be running continuously
-            host.RunAndBlock();
+            //host.RunAndBlock();
         }
     }
 }

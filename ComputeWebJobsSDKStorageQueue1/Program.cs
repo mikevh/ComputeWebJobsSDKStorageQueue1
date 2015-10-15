@@ -20,6 +20,7 @@ using Microsoft.WindowsAzure.Storage.Queue;
 using Newtonsoft.Json;
 using System;
 using System.Configuration;
+using System.Diagnostics;
 
 namespace ComputeWebJobsSDKStorageQueue1
 {
@@ -42,6 +43,8 @@ namespace ComputeWebJobsSDKStorageQueue1
     {
         static void Main()
         {
+            Trace.Write("Hello from job 1");
+
             if (!VerifyConfiguration())
             {
                 Console.ReadLine();

@@ -47,7 +47,7 @@ namespace ComputeWebJobsSDKStorageQueue1
 
         static void Main()
         {
-            Trace.Write("Hello from job 1 - " + ApplicationVersionHelper.BuildString);
+            Console.WriteLine("Hello from job 1 - " + ApplicationVersionHelper.BuildString);
 
             if (!VerifyConfiguration())
             {
